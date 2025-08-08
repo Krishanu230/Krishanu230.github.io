@@ -1,0 +1,224 @@
+.goal-based {
+  padding: 4rem 2rem;
+  background-color: #040c18;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.goal-based__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  align-items: center;
+}
+
+.goal-based__header {
+  width: 375px;
+}
+
+.goal-based__title {
+  width: 375px;
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem; /* 56px */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.0625rem; /* 65px */
+  letter-spacing: 0.0125rem; /* 0.2px */
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.goal-based__highlight {
+  font-weight: 700;
+  color: #ffba3f;
+}
+
+.goal-based__subtitle {
+  color: #ebecef;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem; /* 24px */
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2rem; /* 32px */
+  letter-spacing: 0.0125rem; /* 0.2px */
+  margin-bottom: 2rem;
+}
+
+.goal-based__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.goal-card {
+  border-radius: 0.625rem;
+  box-shadow: 0px 0.25rem 0.5rem rgba(34, 42, 53, 0.05),
+    0px 0px 0px 0.0625rem rgba(34, 42, 53, 0.08),
+    0px 0.0625rem 0.3125rem -0.25rem rgba(19, 19, 22, 0.7);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.goal-card:hover {
+  transform: translateY(-0.3125rem);
+}
+
+.goal-card__icon {
+  width: 3.75rem;
+  height: 3.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.goal-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.goal-card__title {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 1.75rem; /* 28px */
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.25rem; /* 36px */
+  letter-spacing: 0.000625rem; /* 0.01px */
+  margin-bottom: 1rem;
+}
+
+.goal-card__description {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem; /* 14px */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 24px */
+  opacity: 0.6;
+}
+
+.goal-based .btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.875rem 1.75rem;
+  border-radius: 0.5rem;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.goal-based .btn--primary {
+  background-color: #3E89FA;
+  color: white;
+}
+
+.goal-based .btn--primary:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .goal-based__title {
+    font-size: 3rem; /* 48px */
+    line-height: 3.5rem; /* 56px */
+  }
+  .goal-based__subtitle {
+    font-size: 1.375rem; /* 22px */
+    line-height: 1.875rem; /* 30px */
+  }
+  .goal-card__title {
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+  }
+}
+
+@media (max-width: 768px) {
+  .goal-based {
+    padding: 3rem 1rem;
+  }
+  .goal-based__container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .goal-based__header {
+    width: 100%;
+  }
+
+  .goal-based__title {
+    font-size: 2.5rem; /* 40px */
+    line-height: 3rem; /* 48px */
+    width: 250px;
+  }
+
+  .goal-based__subtitle {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+  }
+  .goal-card__title {
+    font-size: 1.375rem; /* 22px */
+    line-height: 1.75rem; /* 28px */
+  }
+  .goal-card__description {
+    font-size: 0.8125rem; /* 13px */
+    line-height: 1.375rem; /* 22px */
+  }
+
+  .goal-based__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .goal-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .goal-based__title {
+    font-size: 2rem; /* 32px */
+    line-height: 2.5rem; /* 40px */
+  }
+  .goal-based__subtitle {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.5rem; /* 24px */
+  }
+
+  .goal-card__title {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.625rem; /* 26px */
+  }
+
+  .goal-based .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .goal-card__description {
+    font-size: 0.75rem; /* 12px */
+    line-height: 1.25rem; /* 20px */
+  }
+}
+
+/*
+     FILE ARCHIVED ON 21:49:17 Jul 16, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:41:25 Aug 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.571
+  exclusion.robots: 0.024
+  exclusion.robots.policy: 0.014
+  esindex: 0.009
+  cdx.remote: 54.063
+  LoadShardBlock: 469.749 (3)
+  PetaboxLoader3.datanode: 298.922 (4)
+  PetaboxLoader3.resolve: 293.128
+  load_resource: 134.453
+*/

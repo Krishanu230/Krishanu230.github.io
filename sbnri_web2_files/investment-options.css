@@ -1,0 +1,334 @@
+.investment-options {
+  background-color: #040c18;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+.investment-options__title {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 4rem; /* 64px */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.75rem; /* 76px */
+  letter-spacing: -0.0168rem; /* -0.269px */
+}
+
+.investment-options__title-bold {
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Container styles to ensure proper centering */
+.investment-tabs-container {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+
+/* Investment Tabs */
+.investment-tabs {
+  grid-column: 1 / -1;
+  display: inline-flex;
+  justify-content: center;
+  background: #031229;
+  padding: 4px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  box-shadow: 0px 4px 8px 0px rgba(19, 19, 22, 0.05),
+    0px 0px 0px 1px rgba(19, 19, 22, 0.06),
+    0px 1px 5px -4px rgba(19, 19, 22, 0.7);
+}
+
+/* Update the tab button styles to match */
+.investment-tab {
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: #ebecef;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  /* Typography */
+  font-family: "Inter", sans-serif;
+  font-size: 1rem; /* 16px */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: -0.01px;
+  text-align: center;
+
+  min-width: 120px;
+}
+
+.investment-tab.active {
+  background: #fff;
+  color: #1f3151;
+}
+
+.investment-view__container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.investment-content {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 32px;
+}
+/* Investment Options List */
+.investment-options-list {
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.investment-options-list.active {
+  display: flex;
+}
+
+.investment-option {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 560px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.investment-option.active {
+  background: #031229;
+  border: 1px solid rgba(26, 132, 255, 0);
+}
+
+.option-icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option-icon img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  /* For SVG images */
+  filter: brightness(0) invert(1);
+}
+
+/* Active state */
+.investment-option.active .option-icon img {
+  opacity: 1;
+}
+
+.option-content {
+  flex: 1;
+}
+
+.option-content h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 24px; /* 109.091% */
+  letter-spacing: 0.3px;
+  /* Inactive state */
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Active state */
+.investment-option.active .option-content h3 {
+  color: #fff;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.option-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.3px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.investment-option.active .option-content p {
+  height: auto;
+  opacity: 1;
+  margin-top: 0.5rem;
+}
+
+/* Show first option's description by default */
+.investment-options-list.active
+  .investment-option:first-child
+  .option-content
+  p {
+  height: auto;
+  opacity: 1;
+  margin-top: 0.5rem;
+}
+.option-arrow {
+  margin-left: auto;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* App Preview */
+.app-preview {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.app-preview img {
+  width: 100%;
+  max-width: 505px;
+  height: auto;
+  aspect-ratio: 505/466; /* Maintains original image proportions */
+}
+
+/* Download Button */
+.download-app {
+  grid-column: 1 / -1;
+}
+
+.download-button {
+  display: inline-flex;
+  padding: 1rem 2rem;
+  background: #3E89FA;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease;
+  
+}
+
+.download-button:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .investment-options__container {
+    gap: 3rem;
+  }
+
+  .investment-options__title {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .app-preview img {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .investment-options__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .app-preview {
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .investment-options {
+    padding: 3rem 1rem;
+  }
+
+  .investment-view__container {
+    flex-direction: column;
+  }
+
+  .investment-options__title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .investment-option {
+    padding: 1rem;
+  }
+
+  .option-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .option-content p {
+    font-size: 0.875rem;
+  }
+
+  .app-preview img {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .investment-option {
+    width: auto;
+  }
+  .investment-options__title {
+    font-size: 2rem;
+  }
+
+  .investment-tabs {
+    width: 100%;
+    max-width: 225px;
+  }
+
+  .investment-tab {
+    padding: 0.625rem 1.5rem;
+    font-size: 1rem;
+    min-width: 100px;
+  }
+
+  .option-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .app-preview img {
+    max-width: 300px;
+  }
+}
+
+/*
+     FILE ARCHIVED ON 21:48:59 Jul 16, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:40:55 Aug 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.933
+  exclusion.robots: 0.04
+  exclusion.robots.policy: 0.025
+  esindex: 0.017
+  cdx.remote: 1359.636
+  LoadShardBlock: 108.82 (3)
+  PetaboxLoader3.datanode: 130.595 (4)
+  load_resource: 57.432
+*/

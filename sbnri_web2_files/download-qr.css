@@ -1,0 +1,80 @@
+/* CSS updates */
+.qr-download-sticky {
+  position: fixed;
+  right: calc((100vw - min(1440px, 100vw - 40px)) / 2 + 20px);
+  bottom: 100px;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden; /* Add visibility property */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Add visibility to transition */
+  pointer-events: none;
+}
+
+.qr-download-sticky.visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.qr-download-link {
+  display: flex;
+  width: 251px;
+  padding: 16px;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 2px solid #63686f;
+  background: radial-gradient(
+    107.32% 141.42% at 0% 0%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: -5px -5px 250px 0px rgba(255, 255, 255, 0.02) inset;
+  backdrop-filter: blur(21px);
+  -webkit-backdrop-filter: blur(21px);
+}
+
+.qr-code {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.download-text {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 100%; /* Ensures text is centered within container */
+}
+
+/* Hide on mobile */
+@media (max-width: 768px) {
+  .qr-download-sticky {
+    display: none;
+  }
+}
+
+/*
+     FILE ARCHIVED ON 21:48:58 Jul 16, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:40:53 Aug 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.814
+  exclusion.robots: 0.035
+  exclusion.robots.policy: 0.021
+  esindex: 0.017
+  cdx.remote: 23.613
+  LoadShardBlock: 156.149 (3)
+  PetaboxLoader3.datanode: 304.511 (4)
+  load_resource: 187.196
+*/

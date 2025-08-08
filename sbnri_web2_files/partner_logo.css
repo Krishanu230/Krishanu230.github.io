@@ -1,0 +1,129 @@
+.partner-logos {
+  background-color: #040c18;
+  padding: 3rem 0;
+}
+.partner-logos__wrapper {
+  background: linear-gradient(
+    90deg,
+    rgba(153, 153, 153, 0) 0%,
+    rgba(255, 255, 255, 0.1) 49.58%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  overflow: hidden;
+  position: relative;
+}
+
+.partner-logos__slider {
+  position: relative;
+  width: 100%;
+  padding: 3.5rem 0;
+}
+
+.partner-logos__slide-track {
+  display: flex;
+  width: calc(200px * 16); /* Adjust based on slide width and count */
+  animation: scroll 30s linear infinite;
+}
+
+.partner-logos__slide {
+  width: 200px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-logos__slide img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  background: white;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.partner-logos__slide img:hover {
+  transform: scale(1.05);
+}
+
+.partner-logos__fade-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 400px;
+  background: linear-gradient(to right, rgba(4, 12, 24, 1), rgba(4, 12, 24, 0));
+  z-index: 2;
+}
+
+.partner-logos__fade-overlay:last-of-type {
+  right: 0;
+  background: linear-gradient(to left, rgba(4, 12, 24, 1), rgba(4, 12, 24, 0));
+}
+
+.partner-logos__fade-overlay:first-of-type {
+  left: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-200px * 8)); /* Half of total width */
+  }
+}
+
+/* Pause on hover */
+.partner-logos__slider:hover .partner-logos__slide-track {
+  animation-play-state: paused;
+}
+
+@media screen and (max-width: 768px) {
+  .partner-logos__slide {
+    width: 150px;
+  }
+
+  .partner-logos__slide img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .partner-logos__slide-track {
+    width: calc(150px * 16); /* Adjust for mobile */
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-150px * 8)); /* Half of total width */
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .partner-logos__fade-overlay {
+    width: 100px;
+  }
+}
+
+/*
+     FILE ARCHIVED ON 21:49:11 Jul 16, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:40:54 Aug 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 2.028
+  exclusion.robots: 0.038
+  exclusion.robots.policy: 0.023
+  esindex: 0.015
+  cdx.remote: 92.995
+  LoadShardBlock: 65.397 (3)
+  PetaboxLoader3.datanode: 79.606 (4)
+  load_resource: 39.991
+*/

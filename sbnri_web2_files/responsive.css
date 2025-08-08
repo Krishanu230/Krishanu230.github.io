@@ -1,0 +1,2137 @@
+@media (max-width: 1399.98px) {
+	.plan-item h5 {
+	    font-size: 17px;
+	}
+	.plan-item h3 {
+	    font-size: 28px;
+	}
+	.nri-countries-footer-item:after {
+	    right: -33%;
+	}
+	.simple-steps-item:after {
+	    right: -65%;
+	}
+	.meet-out-nri-experts-item-top-info-bottom span {
+	    font-size: 12px;
+	}
+	.header-texts p{
+		width:90%;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	section#tax_return .box-flex{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		/* flex-wrap: wrap; */
+	   }
+	   .tax_return_header p{
+		width:80%;
+	   }
+	.header-texts h1 {
+	    font-size: 60px;
+	    line-height: 58px;
+	}.header-texts p{
+		width:100%;
+	}
+	.header-texts h1 span{
+		font-size: 56px;
+	}
+	.header-texts ul {
+	    font-size: 16px;
+	    margin-top: 45px;
+	}
+	a.nav-link {
+	    font-size: 15px;
+	}
+	.header-texts ul {
+	    font-size: 15px;
+	}
+	.section-title h2 {
+	    font-size: 35px;
+	}
+	.underline:after {
+	    height: 10px;
+	}
+	.header-texts .underline:after {
+	    height: 12px;
+	}
+	.nri-countries-footer h3 {
+	    font-size: 32px;
+	}
+	.nri-countries-footer p {
+	    font-size: 16px;
+	}
+	.nri-countries-footer-item:after {
+	    right: -50px;
+	}
+	.dont-miss-card-texts {
+	    padding: 35px 40px 40px;
+	}
+	.dont-miss-card-texts h4 {
+	    font-size: 20px;
+	}
+	.dont-miss-card-texts p {
+	    font-size: 16px;
+	}
+	.security-texts-inner h4 {
+	    font-size: 20px;
+	}
+	.security-texts-inner p {
+	    font-size: 16px;
+	}
+	.security-image img {
+	    width: 370px;
+	    max-width: 90%;
+	}
+	.investors-item img {
+	    width: 75%;
+	}
+	.bharat-nre-content ul {
+	    font-size: 16px;
+	    margin-top: 45px;
+	}
+	section#bharat-nre {
+	    padding: 80px 0px;
+	}
+	.simple-steps-item:after {
+	    width: 45px;
+	    height: 6px;
+	    right: -33%;
+	    top: 45%;
+	}
+	.plan-wraper {
+	    flex-wrap: wrap;
+	    justify-content: center;
+	}
+	.plan-item {
+	    width: 100%;
+	    background: #fff;
+	    margin-left: 15px;
+	    margin-right: 15px;
+	    margin-bottom: 30px;
+	    min-height: 470px;
+	}
+	.post-item a img {
+	    /* width: 40px; */
+	}
+	.resource-center-title h2 {
+	    font-size: 36px;
+	}
+	.grow-money-item.grow-money-item1:after {
+	    width: 280px;
+	    height: 280px;
+	    left: 50%;
+	    bottom: 35px;
+	}
+	.grow-money-item.grow-money-item3:after {
+	    width: 280px;
+	    height: 280px;
+	    top: -100px;
+	    right: 25%;
+	}
+	.footer-top-left h4 {
+	    font-size: 20px;
+	}
+	.footer-top-right h5 {
+	    font-size: 16px;
+	}
+	.footer-links-inner {
+	    margin-bottom: 30px;
+	    margin-right: 20px;
+	}
+	.footer-links-wraper {
+	    justify-content: start;
+	    flex-wrap: wrap;
+	}
+	.footer-menu-2 a {
+	    font-size: 14px;
+	}
+	.plan-section-slider{
+		display: block;
+	}
+	.plan-section-normal{
+		display: none;
+	}
+	section#plan-section .container:before {
+	    content: '';
+	    position: absolute;
+	    right: -15%;
+	    bottom: 30px;
+	    width: 396px;
+	    height: 396px;
+	    border-radius: 100%;
+	    background: #E9F2FF;
+	}
+	section#plan-section .container:before {
+	    content: '';
+	    position: absolute;
+	    right: -15%;
+	    bottom: 30px;
+	    width: 300px;
+	    height: 300px;
+	    border-radius: 100%;
+	    background: #E9F2FF;
+	}
+	section#plan-section {
+	    padding: 60px 0px;
+	    position: relative;
+	    padding-bottom: 70px;
+	    overflow: hidden;
+	}
+	.detail-header-wraper {
+	    padding: 40px 30px;
+	}
+	.detail-header-form:after{
+	    top: -25px;
+	    right: -25px;
+	    width: 80px;
+	    height: 80px;
+	}
+	.detail-header-form:before{
+	    bottom: -25px;
+	    left: -25px;
+	    width: 80px;
+	    height: 80px;	
+	}
+	.detail-header-form-wraper {
+    	max-width: 320px;
+    	padding: 20px 15px;
+	}
+	.detail-header-form p {
+	    font-size: 14px;
+	}
+	.detail-header-content {
+	    width: calc(100% - 340px);
+	}
+	.service-content-right {
+	    width: 350px;
+	}
+	.service-content-left {
+	    width: calc(100% - 380px);
+	}
+	.popular-service-items p {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+	.popular-service-items p br{
+		display: none;
+	}
+	.popular-service-items {
+	    width: 47%;
+	    padding: 18px;
+	}
+	.service-content-left-items-features {
+	    margin-top: 10px;
+	}
+	.service-content-left-items-top-price h2 {
+	    font-size: 30px;
+	}
+	.service-content-left-items-top-title h4 {
+	    font-size: 22px;
+	}
+	.meet-out-nri-experts-wraper, .service-content-left-item-wraper{
+	    padding: 0px 20px;
+	}
+	.meet-out-nri-experts-item-top-image img {
+	    width: 90px;
+	    border-radius: 10px;
+	}
+	.meet-out-nri-experts-item-top-info h4 {
+	    font-size: 20px;
+	}
+	.meet-out-nri-experts-item-top-info h6 {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.meet-out-nri-experts-item-top-info-bottom > div {
+	    width: fit-content;
+	    margin-right: 25px;
+	}
+	.meet-out-nri-experts-item-top-info-bottom > div:after {
+    	right: -15px;
+    }
+    span.menu-bottom-border{
+    	display: none;
+    }
+	.header-features .header-features-items img{
+		width: 23px;
+	}
+	.header-features .header-features-items p{
+		font-size: 14px;
+		padding-left: 12px;
+		line-height: 20px;
+	}
+
+	section#nri_account {
+		background-color: #1C2532;
+		padding:80px 0px;
+	}
+	section#nri_account .account_wrapper{
+		display: flex;
+		width: 100%;
+		gap: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	section#nri_account .account_wrapper .account_content{
+		flex: 1;
+		padding: 30px;
+	}
+	section#nri_account .account_wrapper .account_image{
+		flex: 1;
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		min-height: 550px;
+		position: relative;
+	}
+	section#nri_account .account_wrapper .account_content h1{
+	font-weight: 800;
+    font-size: 52px;
+    line-height: 70px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+	}
+	section#nri_account .account_wrapper .account_content h2{
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 25px;
+		letter-spacing: 0.7px;
+		color: rgba(255, 255, 255, 0.5);
+		margin-bottom: 20px;
+	}
+	section#nri_account .account_wrapper .account_content .bullets{
+		display: flex;
+		flex-direction: column;
+		gap: 3px;
+		margin-bottom: 50px;
+	}
+	section#nri_account .account_wrapper .account_content p{
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 32px;
+		letter-spacing: 0.466667px;
+	}
+	section#nri_account .account_wrapper .account_content p .material-symbols-outlined {
+		font-variation-settings:
+		'FILL' 1,
+		'wght' 400,
+		'GRAD' 200,
+		'opsz' 48;
+		color: rgba(169, 204, 255, 0.7);;
+		font-size: 27px;
+		margin-left: 0px !important;
+	
+	  }
+	section#nri_account .account_wrapper .account_content a{
+		display: flex;
+		align-items: center;
+		font-weight: 800;
+	font-size: 22px;
+	line-height: 22px;
+	letter-spacing: 0.3px;
+	color: #3E89FA;
+	}
+	section#nri_account .account_wrapper .account_content a .material-symbols-outlined{
+		font-size: 24px;
+	}
+	
+	section#nri_account .account_wrapper .account_image img{
+		position: absolute;
+		max-width: 530px;
+		bottom: -16% 
+		/* max-height: 450px; */
+	}
+	
+}
+
+@media (max-width: 991.98px) {
+	.review-slider .owl-nav {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    position: absolute;
+	    width: 110%;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+	.tax_return_header p{
+		width:90%;
+	}
+	.header-texts h1 {
+	    font-size: 45px;
+	    line-height: 45px;
+	}
+	.header-texts h1 span{
+		font-size: 40px;
+	}
+	.header-amfi{
+		width: 100%;
+	}
+	.header-texts ul li {
+	    position: relative;
+	    margin-bottom: 10px;
+	    font-size: 14px;
+	}
+	.header-bottom {
+	    display: block;
+	    align-items: center;
+	    margin-top: 0;
+	}
+	a.link-with-icon {
+	    margin-left: 29px;
+	    margin-top: 25px;
+	}
+	span.menu-bar {
+		text-align: right;
+	    border: 1px solid #1C2532;;
+	    width: 35px;
+	    height: 5px;
+	    background: #C9D1D9;
+		border-radius: 25px;
+	    margin-bottom: 6px;
+	    display: block;
+	}
+	span.menu-bar:nth-child(2) {
+	    border: 1px solid #1C2532;;
+	    width: 25px;
+	    height: 5px;
+	    background: #C9D1D9;
+	    margin-bottom: 6px;
+	    display: block;
+	}
+	button.navbar-toggler {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	    border: none;
+	    padding: 0;
+	}
+	button.navbar-toggler:hover span{
+	    background: white;
+
+	}
+	.navbar-toggler:focus {
+	    text-decoration: none;
+	    outline: 0;
+	    box-shadow: 0 0 0 0rem;
+	}
+	a.nav-link {
+	    font-size: 16px;
+	    color: #fff;
+	    padding: 0px !important;
+	    margin-left: 0;
+	    font-size: 16px !important;
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 11px;
+	}
+	ul.navbar-nav.ms-auto {
+	    margin-top: 30px;
+	}
+	.header-texts .underline:after {
+	    bottom: 6px;
+	    height: 9px;
+	}
+	.section-title h2 {
+	    font-size: 30px;
+	}
+	.underline:after {
+	    height: 8px;
+	}
+	.nri-countries-footer h3 {
+	    font-size: 25px;
+	}
+	.nri-countries-footer p {
+	    font-size: 14px;
+	}
+	.nri-countries-footer-item:after {
+	    right: -30px;
+	    width: 2px;
+	    height: 35px;
+	}
+	.dont-miss-card-texts {
+	    padding: 25px 20px 20px;
+	    min-height: auto;
+	}
+	.dont-miss-card-texts p {
+	    font-size: 15px;
+	}
+	.security-texts {
+	    margin-bottom: 50px;
+	}
+	.security-texts .section-title {
+	    text-align: left;
+	    margin-bottom: 25px;
+	}
+	.security-text-image img {
+	    width: 25px;
+	}
+	.security-texts-inner h4 {
+	    font-size: 18px;
+	}
+	.security-texts-inner p {
+	    font-size: 15px;
+	}
+	.bharat-nre-content h3 {
+	    font-size: 18px;
+	}
+	.bharat-nre-content > a {
+	    margin-top: 30px;
+	}
+	.bharat-nre-content ul li {
+	    position: relative;
+	    margin-bottom: 10px;
+	    font-size: 15px;
+	}
+	.simple-steps-wraper {
+	    flex-wrap: wrap;
+	}
+	.simple-steps-title {
+	    width: 100%;
+	    margin-bottom: 35px;
+	    text-align: center;
+	}
+	.simple-steps-item:after {
+	    width: 45px;
+	    height: 6px;
+	    right: -54%;
+	    top: 45%;
+	}
+	.grow-money-item {
+	    padding: 20px;
+	    width: 32%;
+	}
+	.grow-money-item img {
+	    height: 115px;
+	    margin-bottom: 15px;
+	}
+	.grow-money-item h4 {
+	    font-size: 18px;
+	    line-height: 26px;
+	    margin-bottom: 5px;
+	}
+	.grow-money-item a svg {
+	    width: 30px;
+	}
+	.grow-money-item.grow-money-item3:after {
+	    width: 280px;
+	    height: 280px;
+	    top: -40px;
+	    right: 25%;
+	}
+	section#grow-money .section-title {
+	    text-align: left;
+	    margin-bottom: 0px;
+	}
+	.grow-money-top.section-title p {
+	    font-size: 18px;
+	}
+	.review-slider-item h4 {
+	    font-size: 16px;
+	}
+	.review-slider-item p {
+	    font-size: 12px;
+	    margin-top: 10px;
+	}
+	.reviewer-info h5 {
+	    font-size: 13px;
+	}
+	.reviewer-info p {
+	    margin-top: 0px;
+	    font-size: 11px;
+	}
+	.reviewer-wraper {
+	    display: flex;
+	    align-items: center;
+	    margin-top: 20px;
+	}
+	.review-rating img {
+	    width: 15px !important;
+	}
+	.resource-center-wraper {
+	    flex-wrap: wrap;
+	}
+	.resource-center-title {
+	    width: 100%;
+	    min-width: 100%;
+	    margin-right: 0px;
+	    margin-bottom: 40px;
+	}
+	section#resource-center {
+	    padding-top: 50px;
+	}
+	.resource-center-inner-top {
+	    position: relative;
+	    z-index: 1;
+	}
+	.post-wraper {
+	    display: flex;
+	    justify-content: space-between;
+	    margin-top: 20px;
+	    position: relative;
+	    z-index: 1;
+	}
+	.sbnri-youtube:after {
+	    content: '';
+	    position: absolute;
+	    width: 1100px;
+	    height: 100%;
+	    background: #050e1e;
+	    top: 0;
+	    left: 50%;
+	    transform: translate(-50%, 0px);
+	    z-index: 0;
+	}
+	.blogs:after {
+	    content: '';
+	    position: absolute;
+	    width: 1100px;
+	    height: 100%;
+	    background: #151e44;
+	    top: 0;
+	    left: 50%;
+	    transform: translate(-50%, 0px);
+	    z-index: 0;
+	}
+	.resource-center-title h2 {
+	    font-size: 25px;
+	}
+	.resource-center-title p {
+	    font-size: 16px;
+	    margin-top: 0px;
+	}
+	.footer-top-left h4 {
+	    font-size: 18px;
+	}
+	.footer-top-left p {
+	    font-size: 14px;
+	    margin-top: 5px;
+	}
+	.footer-app-download a {
+	    border: 1px solid #fff;
+	    padding: 5px 15px;
+	    border-radius: 5px;
+	    margin-left: 20px;
+	}
+	.detail-header-wraper {
+	    padding: 40px 50px;
+	    flex-wrap: wrap;
+	}
+	.detail-header-content {
+	    width: 100%;
+	}
+	.detail-header-form {
+	    position: relative;
+	    width: 100%;
+	}
+	.detail-header-form-wraper {
+	    max-width: 100%;
+	}
+	.detail-header-form {
+	    margin-top: 30px;
+	}
+	.service-content-wraper {
+	    flex-wrap: wrap;
+	}
+	.service-content-left {
+	    width: 100%;
+	}
+	.service-content-right {
+	    width: 100%;
+	    margin-top: 30px;
+	}
+	span.menu-bottom-border {
+	    position: relative;
+	    width: 100%;
+	    height: 2px;
+	    background: linear-gradient(
+	90deg, #151E44 0%, #1A5FC7 49.55%, #151E44 100%);
+	    left: 0;
+	    display: block;
+	    margin-bottom: 15px;
+	}
+	.header-bottom{
+		flex-direction: column;
+	}
+	.header-bottom p{
+		padding-left: 0px;
+		margin-top: 20px;
+		text-align: left;
+		font-size: 18px;
+	}
+	.header-bottom p .fa-solid{
+		display:inline-block;
+		}
+		
+		.header-features .header-features-items img{
+			width: 20px;
+		}
+		.header-features .header-features-items p{
+			font-size: 12px;
+			padding-left: 12px;
+			line-height: 16px;
+		}
+		section#investment .investment_wrapper{
+			display:none;
+		}
+		section#investment .container{
+			margin: 0px;
+			padding: 0px;
+			max-width: 100%;
+		}
+		section#investment .accordion {
+			margin-top: 40px;
+			display: block;
+		}
+				.accordion-collapse .accordion-body {
+					padding: 28px 35px;
+					min-height: 520px;
+				}
+		
+				.accordion-collapse .accordion-body .desc_header p {
+					font-weight: 500;
+					width: 90%;
+					font-size: 18px;
+					line-height: 28px;
+					letter-spacing: 0.3px;
+				}
+		
+				.accordion-collapse .accordion-body .desc_header a {
+					margin-top: 20px;
+					display: flex;
+					align-items: center;
+					color: #3E89FA;
+					font-weight: 600;
+					font-size: 20px;
+					line-height: 24px;
+					letter-spacing: 0.7px;
+				}
+		
+				.accordion-collapse .accordion-body img {
+					width: 80%;
+					height: 60%
+				}
+		
+				section#investment .accordion-flush .accordion-item .accordion-button .option .option_left p {
+					font-weight: 600;
+					font-size: 18px;
+					line-height: 24px;
+					letter-spacing: 0.3px;
+				}
+		
+				section#investment .accordion-flush .accordion-item .accordion-button .option .option_left img {
+					width: 27px;
+					height: 27px;
+				}
+		
+				.accordion-collapse .accordion-body .desc_header a .material-symbols-outlined {
+					font-size: 20px;
+				}
+		
+				section#investment .investment_header p {
+					width: 90%;
+					font-weight: 500;
+					font-size: 18px;
+					line-height: 24px;
+					letter-spacing: 0.3px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+		
+				section#investment .investment_header {
+					max-width: 100%;
+					padding: 0px 20px;
+				}
+		
+				section#investment .investment_header h2 {
+					font-weight: 800;
+					font-size: 42px;
+					line-height: 50px;
+					letter-spacing: 0.7px;
+				}
+		
+				section#investment .investment_header h1 {
+					font-size: 32px;
+					line-height: 45px;
+				}
+		
+				section#investment {
+					padding: 60px 0px;
+				}
+		
+				section#nri_account {
+					background-color: #1C2532;
+					padding: 80px 0px;
+				}
+		
+				section#nri_account .container {
+					max-width: 100%;
+				}
+		
+				section#nri_account .account_wrapper {
+					display: flex;
+					width: 100%;
+					gap: 10px;
+					justify-content: center;
+					align-items: center;
+				}
+		
+				section#nri_account .account_wrapper .account_content {
+					flex: 1;
+					padding: 30px;
+				}
+		
+				section#nri_account .account_wrapper .account_image {
+					flex: 1;
+					display: flex;
+		
+					align-items: flex-end;
+					justify-content: flex-end;
+					max-height: 100%;
+					width: 100%;
+					position: relative;
+				}
+		
+				section#nri_account .account_wrapper .account_content h1 {
+					font-weight: 800;
+					font-size: 45px;
+					line-height: 60px;
+					letter-spacing: 0.3px;
+					color: #FFFFFF;
+					margin-bottom: 18px;
+				}
+		
+				section#nri_account .account_wrapper .account_content h2 {
+					font-weight: 600;
+					font-size: 18px;
+					line-height: 25px;
+					letter-spacing: 0.7px;
+					color: rgba(255, 255, 255, 0.5);
+					margin-bottom: 18px;
+				}
+		
+				section#nri_account .account_wrapper .account_content .bullets {
+					display: flex;
+					flex-direction: column;
+					gap: 2px;
+					margin-bottom: 45px;
+				}
+		
+				section#nri_account .account_wrapper .account_content p {
+					display: flex;
+					align-items: center;
+					gap: 10px;
+					font-weight: 600;
+					font-size: 16px;
+					line-height: 32px;
+					letter-spacing: 0.466667px;
+				}
+		
+				section#nri_account .account_wrapper .account_content p .material-symbols-outlined {
+					font-variation-settings:
+						'FILL' 1,
+						'wght' 400,
+						'GRAD' 200,
+						'opsz' 48;
+					color: rgba(169, 204, 255, 0.7);
+					;
+					font-size: 27px;
+					margin-left: 0px !important;
+		
+				}
+		
+				section#nri_account .account_wrapper .account_content a {
+					display: flex;
+					align-items: center;
+					font-weight: 800;
+					font-size: 22px;
+					line-height: 22px;
+					letter-spacing: 0.3px;
+					color: #3E89FA;
+				}
+		
+				section#nri_account .account_wrapper .account_content a .material-symbols-outlined {
+					font-size: 24px;
+				}
+		
+				section#nri_account .account_wrapper .account_image img {
+					position: absolute;
+					max-width: 487px;
+					bottom: -10%
+						/* max-height: 450px; */
+				}
+
+}
+
+@media (max-width: 767.98px) {
+	section#header {
+		height:auto;
+	}
+	.header-content{
+		padding-top: 31px;
+	}
+	.header-texts h1 {
+	    font-size: 45px;
+	    line-height: 45px;
+	    text-align: left;
+	}
+	.header-texts h1 span{
+		font-size: 42px;
+	}
+	.header-bottom {
+	    text-align: center;
+	}
+	a.link-with-icon {
+	    margin-left: 29px;
+	    margin-top: 25px;
+	    justify-content: center;
+	}
+	a.link-with-icon:after{
+		display: none;
+	}
+	a.link-with-icon br {
+	    display: none;
+	}
+	.header-image {
+	    text-align: center;
+		align-items: center;
+	    /* margin-top: 40px; */
+	}
+	
+	.nri-countries-footer-item {
+	    width: 100%;
+	    position: relative;
+	    margin-bottom: 40px;
+	    text-align: center;
+	}
+	.nri-countries-footer {
+	    flex-wrap: wrap;
+	}
+	.nri-countries-footer-item:after {
+	    right: inherit;
+	    width: 40px;
+	    height: 3px;
+	    left: 50%;
+	    bottom: -30px;
+	    top: inherit;
+	    transform: translate(-50%, 0px);
+	}
+	section#nri-countries {
+	    padding: 0px 0px;
+	    padding-bottom: 20px;
+	}
+	section#dont-miss-india {
+	    padding: 40px 0px;
+	}
+	/* .nri-countries-footer-item:last-child{
+		margin-bottom: 0px;
+	} */
+	section#security {
+	    padding: 40px 0px 0px;
+	}
+	.security-image {
+	    margin-top: 0;
+	    text-align: center;
+	}
+	section#bharat-nre {
+	    padding: 60px 0px;
+	}
+	.review-slider .owl-item.active.center {
+	    transform: scale(1.0) !important;
+	    transition: .3s ease;
+	}
+	.review-slider-item {
+	    background: #344666;
+	    padding: 32px;
+	    border-radius: 15px;
+	    border: 1px solid #344666;
+	    min-height: 320px;
+	}
+	.app-download-wraper {
+	    display: block;
+	    align-items: center;
+	    justify-content: center;
+	    text-align: center;
+	    margin-top: 50px;
+	}
+	.review-slider .owl-stage-outer {
+	    padding: 10px 0px;
+	}
+	.app-download-links {
+	    margin-bottom: 20px;
+	}
+	.dont-miss-card {
+	    margin-bottom: 20px;
+	}
+	a.read-more-link {
+	    color: #fff;
+	    padding: 10px 30px;
+	    border-radius: 30px;
+	    margin-top: 35px;
+	    font-size: 14px;
+	}
+	.security-texts {
+	    text-align: center;
+	}
+	.security-text-item {
+	    display: block;
+	    align-items: center;
+	    margin-bottom: 30px;
+	}
+	.security-text-image {
+	    margin-right: 0;
+	    margin-bottom: 5px;
+	}
+	.security-texts > div {
+	    text-align: center !important;
+	}
+	section#bharat-nre .section-title {
+	    margin-bottom: 30px;
+	    text-align: center;
+	}
+	.bharat-nre-content h3 {
+	    font-size: 18px;
+	    text-align: center;
+	}
+	.bharat-nre-content {
+	    text-align: center;
+	}
+	.simple-steps-item img {
+	    width: 110px;
+	}
+	.simple-steps-item:after {
+	    width: 45px;
+	    height: 6px;
+	    right: -80%;
+	    top: 45%;
+	}
+	.grow-money-item h4 {
+	    font-size: 16px;
+	    line-height: 18px;
+	}
+	.grow-money-item p {
+	    font-size: 13px;
+	    margin-bottom: 5px;
+	}
+	.grow-money-item ul li {
+	    font-size: 13px;
+	    margin-bottom: 5px;
+	}
+	.grow-money-item ul li svg {
+	    margin-right: 5px;
+	    width: 20px;
+	    min-width: 20px;
+	}
+	.grow-money-item {
+	    padding: 15px;
+	    width: 32%;
+	}
+	.grow-money-item img {
+	    height: 90px;
+	    margin-bottom: 15px;
+	}
+	.plan-item {
+	    width: 100%;
+	}
+	section#plan-section .container:after {
+	    content: '';
+	    position: absolute;
+	    left: -190px;
+	    top: 60px;
+	    width: 300px;
+	    height: 300px;
+	    border-radius: 100%;
+	    background: #E9F2FF;
+	    z-index: -1;
+	}
+	.post-item h4 {
+	    font-size: 14px;
+	    font-weight: 600;
+	    line-height: 22px;
+	    letter-spacing: 0.7px;
+	    margin-top: 15px;
+	}
+	.resource-center-inner-top h3 {
+	    font-size: 20px;
+	}
+	section#footer {
+	    padding-top: 50px;
+	    padding-bottom: 30px;
+	}
+	.footer-top-wraper {
+	    display: block;
+	}
+	.footer-app-download a {
+	    border: 1px solid #fff;
+	    padding: 10px 20px;
+	    border-radius: 5px;
+	    margin-left: 0;
+	    margin-right: 20px;
+	}
+	.footer-top-right h5 {
+	    font-size: 16px;
+	    margin-left: 0;
+	}
+	.footer-top-right {
+	    margin-top: 30px;
+	}
+	.footer-menu-2 a {
+	    font-size: 10px;
+	}
+	.footer-links-inner a {
+	    font-size: 12px;
+	}
+	.footer-bootom-item {
+	    width: 100%;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+	.footer-bootom-wraper {
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	}
+	.footer-bootom-item-top {
+	    display: flex;
+	    align-items: center;
+	    margin-bottom: 10px;
+	    justify-content: center;
+	}
+	.social {
+	    display: flex;
+	    justify-content: center;
+	}
+	section#footer-bottom {
+	    background: #040C18;
+	    padding: 30px 0px;
+	}
+	.review-slider .owl-nav button i {
+	    font-size: 30px;
+	    color: #A3ACBB;
+	    transition: .3s ease;
+	}
+	.post-wraper {
+	    display: flex;
+	    justify-content: space-between;
+	    margin-top: 20px;
+	    position: relative;
+	    z-index: 1;
+	    width: 100%;
+	    overflow: scroll;
+	}
+	.post-item {
+	    width: 320px;
+	    min-width: 321px;
+	    margin-right: 15px;
+	}
+	.post-wraper::-webkit-scrollbar {
+	  width: 0px;
+	}
+	.detail-header-wraper {
+	    padding: 40px 30px;
+	    flex-wrap: wrap;
+	}
+	.detail-header-content .section-title h2 br{
+		display: none;
+	}
+	.header-amfi {
+		width:100%;
+	}
+	/* section#tax_return{
+		padding-left: 0px;
+		padding-right: 0px;
+	} */
+	section#tax_return .box-flex{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		/* flex-wrap: wrap; */
+	   }
+	   .tax_return_mainbox{
+		padding-left:0px;
+		padding-right:0px;
+	   }
+	   .tax_return_header{
+		padding-bottom: 20px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.tax_return_header h1{
+		font-size:35px;
+		line-height: 42px;
+	}
+	.tax_return_header p{
+		width: 100%;
+		font-size:16px;
+		line-height: 22px;
+		margin-top: 24px;
+
+	}
+		.accordion-collapse .accordion-body {
+			padding: 28px 35px;
+			min-height: 520px;
+		}
+	
+		.accordion-collapse .accordion-body .desc_header p {
+			font-weight: 500;
+			width: 90%;
+			font-size: 18px;
+			line-height: 28px;
+			letter-spacing: 0.3px;
+		}
+	
+		.accordion-collapse .accordion-body .desc_header a {
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 24px;
+			letter-spacing: 0.7px;
+		}
+	
+		.accordion-collapse .accordion-body img {
+			width: 80%;
+			height: 60%
+		}
+	
+		section#investment .accordion-flush .accordion-item .accordion-button .option .option_left p {
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 24px;
+			letter-spacing: 0.3px;
+		}
+	
+		section#investment .accordion-flush .accordion-item .accordion-button .option .option_left img {
+			width: 27px;
+			height: 27px;
+		}
+	
+		.accordion-collapse .accordion-body .desc_header a .material-symbols-outlined {
+			font-size: 20px;
+		}
+	
+		section#investment .investment_header p {
+			width: 90%;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 24px;
+			letter-spacing: 0.3px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	
+		section#investment .investment_header {
+			max-width: 100%;
+			padding: 0px 20px;
+		}
+	
+		section#investment .investment_header h2 {
+			font-weight: 800;
+			font-size: 42px;
+			line-height: 50px;
+			letter-spacing: 0.7px;
+		}
+	
+		section#investment .investment_header h1 {
+			font-size: 32px;
+			line-height: 45px;
+		}
+	
+		section#investment {
+			padding: 60px 0px;
+		}
+	
+		section#nri_account {
+			background-color: #1C2532;
+			padding: 30px 0px;
+		}
+	
+		section#nri_account .container {
+			max-width: 100%;
+		}
+	
+		section#nri_account .account_wrapper {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			gap: 10px;
+			justify-content: center;
+			align-items: center;
+		}
+	
+		section#nri_account .account_wrapper .account_content {
+			flex: 1;
+			padding: 30px;
+		}
+	
+		section#nri_account .account_wrapper .account_image {
+			max-height: 100%;
+		}
+	
+		section#nri_account .account_wrapper .account_content h1 {
+			font-weight: 800;
+			font-size: 45px;
+			line-height: 60px;
+			letter-spacing: 0.3px;
+			color: #FFFFFF;
+			margin-bottom: 24px;
+		}
+	
+		section#nri_account .account_wrapper .account_content h2 {
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 27px;
+			letter-spacing: 0.7px;
+			color: rgba(255, 255, 255, 0.5);
+			margin-bottom: 16px;
+		}
+	
+		section#nri_account .account_wrapper .account_content .bullets {
+			display: flex;
+			flex-direction: column;
+			gap: 0px;
+			margin-bottom: 36px;
+		}
+	
+		section#nri_account .account_wrapper .account_content p {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 32px;
+			letter-spacing: 0.466667px;
+		}
+	
+		section#nri_account .account_wrapper .account_content p .material-symbols-outlined {
+			font-variation-settings:
+				'FILL' 1,
+				'wght' 400,
+				'GRAD' 200,
+				'opsz' 48;
+			color: rgba(169, 204, 255, 0.7);
+			;
+			font-size: 22px;
+			margin-left: 0px !important;
+	
+		}
+	
+		section#nri_account .account_wrapper .account_content a {
+			display: flex;
+			align-items: center;
+			font-weight: 800;
+			font-size: 22px;
+			line-height: 22px;
+			letter-spacing: 0.3px;
+			color: #3E89FA;
+		}
+	
+		section#nri_account .account_wrapper .account_content a .material-symbols-outlined {
+			font-size: 24px;
+		}
+	
+		section#nri_account .account_wrapper .account_image img {
+			position: absolute;
+			max-width: 480px;
+			bottom: 23%
+				/* max-height: 450px;; */
+			;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		.featured-logos{
+			gap:20px
+		}
+		.featured-logos2{
+			margin-top: 20px;
+		}
+		.featured-logos2 img.gulf{
+			max-width: 110px;
+		}.featured-logos2 img.express{
+			max-width: 110px;
+		}
+	
+}
+
+@media (max-width: 575.98px) {
+	.review-slider .owl-nav {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    position: absolute;
+	    width: 100px;
+	    top: inherit;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    bottom: -70px;
+	}
+	.review-slider .owl-nav button i {
+	    font-size: 25px;
+	    color: #A3ACBB;
+	    transition: .3s ease;
+	}
+	.review-slider .owl-nav button {
+	    width: 35px;
+	    height: 35px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    border-radius: 100%;
+	    background: #344666 !important;
+	}
+	.app-download-wraper {
+	    display: block;
+	    align-items: center;
+	    justify-content: center;
+	    text-align: center;
+	    margin-top: 80px;
+	}
+	.header-texts h1 {
+	    font-size: 34px;
+	    line-height: 40px;
+	    text-align: left;
+		max-width: 86%;
+	}
+	.header-texts h1 span{
+		font-size: 34px;
+	}
+	.header-texts .underline:after {
+	    bottom: 5px;
+	    height: 7px;
+	}
+	.header-texts p{
+		font-size: 15px;
+		line-height: 21px;
+	}
+	.header-amfi {
+		width:100%;
+	}
+	.header-amfi p{
+		font-size: 11px;
+		line-height: 16px;
+	}
+	.header-amfi img{
+		width:28px;
+	}
+	
+	.section-title h2 {
+	    font-size: 28px;
+	}
+	.security-image img {
+	    width: 344px;
+	    max-width: 70%;
+	}
+	.investors-wraper {
+	    flex-wrap: wrap;
+	}
+	.investors-item {
+	    width: 75%;
+	    text-align: center;
+	}
+	.investors-item img {
+	    width: 90%;
+	}
+	.investors-wraper {
+	    align-items: center;
+	    justify-content: center;
+	    display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	    column-gap: 24px;
+	    row-gap: 12px;
+	}
+	section#simple-steps {
+	    background: #EBECEF;
+	    padding: 60px 0px;
+	    display: none;
+	}
+	.grow-money-wraper {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: flex-end;
+	    flex-wrap: wrap;
+		margin-top: 12px;
+	}
+	.grow-money-item {
+	    padding: 15px;
+	    width: 90%;
+	    margin: 10px auto;
+	}
+	section#grow-money {
+	    padding: 60px 0px;
+	    padding-top: 0;
+	}
+	.review-slider-item {
+	    background: #344666;
+	    padding: 32px;
+	    border-radius: 15px;
+	    border: 1px solid #344666;
+	    min-height: auto;
+	    width: 255px;
+    	margin: 0 auto;
+	}
+	.section-title {
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+	.grow-money-item.grow-money-item1:after {
+	    display: none;
+	}
+	.grow-money-item.grow-money-item3:after{
+		display: none;
+	}
+	.plan-item {
+	    width: 80%;
+	    background: #fff;
+	    margin-left: 0;
+	    margin: 0 auto;
+	}
+	.dont-miss-card {
+	    width: 255px;
+	    margin: 0 auto;
+	    margin-bottom: 20px;
+	}
+	.btn-blue {
+	    color: #fff;
+	    padding: 12px 18px !important;
+	    border-radius: 30px;
+	    background: linear-gradient(
+	128.45deg, #3E89FA 7.85%, #1346B6 94.49%);
+	    background-size: 150% auto;
+	    background-position: left center;
+	    font-size: 14px;
+		letter-spacing: 0.7px;
+	}
+	.app-download-links {
+	    width: 255px;
+	    margin: 0 auto;
+	    margin-bottom: 20px;
+	    padding: 20px;
+	}
+	.header-image img {
+	    width: 90%;
+	}
+	.footer-menu-2 {
+	    flex-wrap: wrap;
+	    justify-content: start;
+	}
+	.footer-menu-2 a {
+	    font-size: 10px;
+	    margin-right: 15px;
+	}
+	.plan-item {
+	    min-height: 400px;
+	}
+	.grow-money-top.section-title p {
+	    font-size: 15px;
+	    margin-top: 10px;
+	}
+	.grow-money-top.section-title{
+		text-align: center !important;
+		margin-bottom: 30px !important;
+	}
+	.resource-center-title {
+	    text-align: center;
+	}
+	.pc-map{
+		display: none;
+	}
+	.mobile-map{
+	    display: block;
+	}
+	.footer-top-wraper {
+	    display: block;
+	    text-align: center;
+	}
+	.footer-top-left p {
+	    font-size: 14px;
+	    margin-top: 5px;
+	    text-align: center;
+	}
+	.footer-top-left h4 {
+	    font-size: 18px;
+	    line-height: 25px;
+	    margin-bottom: 10px;
+	}
+	.footer-links-wraper {
+	    display: none;
+	}
+	.footer-links-mobile{
+	    display: block;
+	    margin-top: 50px;
+	}
+	.footer-menu-2 a {
+	    font-size: 13px;
+	    margin-right: 0px;
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 5px;
+	}
+	.footer-menu-2 {
+	    flex-wrap: wrap;
+	    justify-content: start;
+	    margin-top: 30px;
+	}
+	.footer-app-download {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.detail-header-content .section-title h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.service-content-left h3 {
+	    font-size: 22px;
+	}
+	.service-content-left-items-top-title h4 {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	.service-content-left-items-top-price h2 {
+	    font-size: 25px;
+	}
+	.service-content-left-items-top-price span {
+	    font-size: 12px;
+	}
+	.meet-out-nri-experts-item-top-info-bottom {
+	    display: flex;
+	    align-items: center;
+	    flex-wrap: wrap;
+	}
+	.meet-out-nri-experts-item-top-info-bottom > div:after{
+		display: none;
+	}
+	.meet-out-nri-experts-item-top-info-bottom > div {
+	    width: fit-content;
+	    margin-right: 0px;
+	    margin-bottom: 7px;
+	}
+	.meet-out-nri-experts-item-top-image img {
+	    width: 90px;
+	    border-radius: 10px;
+	    margin-top: 14px;
+	}
+
+	.nri-countries-footer {
+		display: grid;
+		grid-template-columns: repeat(2	, 1fr);
+	}
+
+	.nri-countries-footer-item:after {
+		display: none;
+	}
+
+	.header-features .header-features-items img{
+		width: 20px;
+	}
+	.header-features .header-features-items p{
+		font-size: 11px;
+		padding-left: 12px;
+		line-height: 16px;
+	}
+	.nri-countries-footer-item {
+		text-align: center;
+	}
+	.header-bottom p{
+		font-size: 18px;
+	}
+	.header-features{
+		margin:44px 0px;
+	}
+
+	.tax_return_header{
+		padding-bottom: 20px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.tax_return_header h1{
+		font-size:30px;
+		line-height: 40px;
+	}
+	.tax_return_header p{
+		width: 100%;
+		font-size:15px;
+		line-height: 21px;
+		margin-top: 24px;
+
+	}
+	section#tax_return .tax_return_box1{
+		min-height: 480px;
+		max-width: 345px;
+		padding: 24px 28px;
+        border-radius: 20px;
+		}
+
+	section#tax_return .tax_return_box1 h1{
+			font-size: 24px;
+			font-weight: 800;
+			line-height: 32px;
+			margin-bottom: 18px;
+			}
+	section#tax_return .tax_return_box1 p{
+		font-size: 13px;
+					line-height: 19px;
+					letter-spacing: 0.3px;
+					font-weight: 500;
+
+				}
+		section#tax_return .tax_return_box1 img {
+			width: 140px;
+			border-bottom-right-radius: 20px;
+	
+		}
+	
+		section#tax_return .tax_return_box1 p.chat {
+			font-size: 18px;
+		}
+	
+		section#tax_return .tax_return_box {
+			min-height: 480px;
+			max-width: 345px;
+			padding: 24px 28px;
+			border-radius: 20px;
+		}
+
+		section#tax_return .tax_return_box h1 {
+			font-size: 24px;
+			line-height: 32px;
+			font-weight: 800;
+			margin-bottom: 18px;
+		}
+	
+		section#tax_return .tax_return_box p {
+			font-size: 13px;
+			line-height: 19px;
+			letter-spacing: 0.3px;
+			font-weight: 500;
+		}
+	
+		section#tax_return .tax_return_box img {
+			width: 110px;
+			border-bottom-right-radius: 20px;
+		}
+	
+		section#tax_return .tax_return_box p.chat {
+			font-size: 18px;
+		}
+	
+		.nri-countries-footer {
+			margin-top: 40px;
+		}
+	
+		.tax_return_header p {
+			padding: 0px 0px;
+		}
+	
+		.header-content {
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+	
+		section#tax_return .container {
+			padding-top: 20px !important;
+		}
+	
+		.accordion-collapse .accordion-body {
+			padding: 19px 32px;
+			min-height: 385px;
+		}
+	
+		.accordion-collapse .accordion-body .desc_header p {
+			font-weight: 500;
+			width: 100%;
+			font-size: 15px;
+			line-height: 21px;
+			letter-spacing: 0.3px;
+		}
+	
+		.accordion-collapse .accordion-body .desc_header a {
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 24px;
+			letter-spacing: 0.7px;
+		}
+	
+		.accordion-collapse .accordion-body img {
+			max-width: 320px;
+			max-height: 205px;
+		}
+	
+		section#investment .accordion-flush .accordion-item .accordion-button .option .option_left p {
+			font-weight: 600;
+			font-size: 15px;
+			line-height: 24px;
+			letter-spacing: 0.3px;
+		}
+	
+		section#investment .accordion-flush .accordion-item .accordion-button .option .option_left img {
+			width: 24px;
+			height: 24px;
+		}
+	
+		.accordion-collapse .accordion-body .desc_header a .material-symbols-outlined {
+			font-size: 18px;
+		}
+	
+		section#investment .investment_header p {
+			width: 100%;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 21px;
+			text-align: center;
+			letter-spacing: 0.3px;
+		}
+	
+		section#investment .investment_header {
+			max-width: 100%;
+			padding: 0px 20px;
+		}
+	
+		section#investment .investment_header h2 {
+			font-weight: 800;
+			font-size: 30px;
+			line-height: 40px;
+			letter-spacing: 0.7px;
+		}
+	
+		section#investment .investment_header h1 {
+			font-size: 24px;
+			line-height: 40px;
+		}
+	
+		section#investment {
+			padding: 60px 0px;
+		}
+	
+		section#tax_return .tax_return_box ul li {
+			font-size: 13px;
+			line-height: 19px;
+			letter-spacing: 0.3px;
+			font-weight: 500;
+		}
+	
+		section#tax_return .tax_return_box1 ul li {
+			font-size: 13px;
+			line-height: 19px;
+			letter-spacing: 0.3px;
+			font-weight: 500;
+		}
+	
+		section#nri_account {
+			background-color: #1C2532;
+			padding: 30px 0px;
+		}
+	
+		section#nri_account .container {
+			max-width: 100%;
+		}
+	
+		section#nri_account .account_wrapper {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			justify-content: center;
+			align-items: center;
+		}
+	
+		section#nri_account .account_wrapper .account_content {
+			flex: 1;
+			padding: 10px;
+		}
+	
+		section#nri_account .account_wrapper .account_image {
+			min-height: 100%;
+		}
+	
+		section#nri_account .account_wrapper .account_content h1 {
+			font-weight: 800;
+			font-size: 34px;
+			line-height: 42px;
+			letter-spacing: 0.3px;
+			width: 80%;
+		}
+	
+		section#nri_account .account_wrapper .account_content h2 {
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 21px;
+			letter-spacing: 0.3px;
+		}
+	
+		section#nri_account .account_wrapper .account_content .bullets {
+			display: flex;
+			flex-direction: column;
+			gap: 4px;
+			margin-bottom: 45px;
+		}
+	
+		section#nri_account .account_wrapper .account_content p {
+			font-weight: 600;
+			font-size: 15px;
+			line-height: 32px;
+			letter-spacing: 0.466667px;
+		}
+	
+		section#nri_account .account_wrapper .account_content p .material-symbols-outlined {
+			font-size: 27px;
+			margin-left: 0px !important;
+		}
+	
+		section#nri_account .account_wrapper .account_content a {
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 24px;
+			letter-spacing: 0.7px;
+		}
+	
+		section#nri_account .account_wrapper .account_content a .material-symbols-outlined {
+			font-size: 21px;
+		}
+	
+		section#nri_account .account_wrapper .account_image img {
+			position: relative;
+			width: 100%;
+		}
+		section#tax_return .box-flex{
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			/* flex-wrap: wrap; */
+		   }
+		   section#tax_return .tax_return_box ul li, section#tax_return .tax_return_box1 ul li{
+			margin-bottom: 4px;
+		}
+}
+
+
+
+@media (max-width: 400px) {
+	
+	.footer-app-download a {
+	    border: 1px solid #fff;
+	    padding: 10px 11px;
+	    border-radius: 5px;
+	    margin-left: 0;
+	    margin-right: 8px;
+	}
+	
+	section#plan-section {
+	    padding: 60px 0px;
+	    position: relative;
+	    padding-bottom: 50px;
+	    overflow: hidden;
+	}
+	.header-amfi p{
+		font-size: 11px;
+	}
+	.header-features .header-features-items img{
+		width: 18px;
+	}
+	.header-features .header-features-items p{
+		font-size: 10px;
+		padding-left: 10px;
+		line-height: 16px;
+	}
+	.section-title h2 {
+	    font-size: 24px;
+	    line-height: 30px;
+	}
+	.grow-money-item {
+	    padding: 15px;
+	    /* width: 255px; */
+	    margin: 10px auto;
+	}
+	.footer-links-inner {
+	    margin-bottom: 30px;
+	    margin-right: 20px;
+	    width: 100%;
+	}
+	.resource-center-title p {
+	    font-size: 14px;
+	    margin-top: 0px;
+	    line-height: 25px;
+	}
+	section#plan-section .container:before {
+	    content: '';
+	    position: absolute;
+	    right: -100px;
+	    bottom: 30px;
+	    width: 200px;
+	    height: 200px;
+	    border-radius: 100%;
+	    background: #E9F2FF;
+	}
+	section#plan-section .container:after {
+	    content: '';
+	    position: absolute;
+	    left: -100px;
+	    top: 60px;
+	    width: 200px;
+	    height: 200px;
+	    border-radius: 100%;
+	    background: #E9F2FF;
+	    z-index: -1;
+	}
+	.detail-header-content img {
+	    display: none;
+	}
+	.detail-header-wraper {
+	    padding: 30px 0px;
+	    flex-wrap: wrap;
+	    padding-bottom: 0px;
+	    overflow: hidden;
+	}
+	.detail-header-content .section-title h2 {
+	    font-size: 20px;
+	    line-height: 30px;
+	    text-align: center;
+	}
+	.detail-header-content .section-title {
+	    text-align: left;
+	    margin-bottom: 0px;
+	    margin-top: 0px;
+	}
+	.detail-header-form:after{
+		display: none;
+	}
+	.detail-header-form:before{
+		display: none;
+	}
+	.detail-header-content {
+	    width: 100%;
+	    padding: 0px 15px;
+	}
+	.detail-header-form-wraper{
+		border-radius: 0px;
+	}
+	.detail-header-form p {
+	    font-size: 12px;
+	}
+	.service-content-left h3 {
+	    font-size: 22px;
+	    text-align: center;
+	}
+	.service-content-left-items-top {
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	}
+	.service-content-left-items-top-title {
+	    width: 100%;
+	}
+	.service-content-left-items-top-price {
+	    width: 100%;
+	    margin-top: 10px;
+	}
+	.service-content-left-items-top-title h4 {
+	    font-size: 17px;
+	    line-height: 24px;
+	}
+	.meet-out-nri-experts-item-top-info h4 {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+	.meet-out-nri-experts-item-top-info h6 {
+	    font-size: 12px;
+	    line-height: 26px;
+	}
+	.meet-out-nri-experts-item-top-image {
+	    margin-right: 10px;
+	}
+	.meet-out-nri-experts-item-top-image img {
+	    width: 80px;
+	    border-radius: 10px;
+	    margin-top: 14px;
+	}
+	.meet-out-nri-experts-item-top-info-bottom img {
+	    margin-right: 5px;
+	    width: 15px;
+	}
+	.meet-out-nri-experts-item > p {
+	    font-size: 14px;
+	    line-height: 22px;
+	    letter-spacing: 0.7px;
+	    margin-top: 5px;
+	    font-weight: 400;
+	}
+	.meet-out-nri-experts-item {
+	    border-bottom: 2px solid #EBECEF;
+	    padding-bottom: 20px;
+	    padding-top: 20px;
+	}
+	.meet-out-nri-experts-item-top-info h6 {
+	    font-size: 12px;
+	    line-height: 26px;
+	    margin-bottom: 0px;
+	}
+	.accordion-item {
+	    border: 2px solid #EBECEF !important;
+	    border-radius: 8px !important;
+	    margin-bottom: 10px;
+	    padding: 0px 0px;
+	}
+	.popular-service-wraper {
+	    background: #F6F6F6;
+	    padding: 12px;
+	    padding-top: 15px;
+	    border-radius: 16px;
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	}
+	.popular-service-title h4 {
+	    font-size: 20px;
+	    line-height: 36px;
+	    font-weight: 600;
+	}
+	.header-bottom p{
+		font-size: 18px;
+	}
+	.header-bottom p .fa-solid{
+		display:inline-block;
+		}
+	.header-texts h1{
+		max-width: 90%;
+	}
+	section#investment .accordion-flush .accordion-item{
+	border: 0px solid rgba(101, 114, 137, 0.15) !important;
+    border-radius: 0px !important;
+    margin-bottom: 0px;
+	}
+	.accordion-collapse .accordion-body {
+		padding: 19px 25px;
+	}
+	section#nri_account .account_wrapper .account_content h1{
+		width:95%;
+	}
+	
+}
+/*
+     FILE ARCHIVED ON 18:42:27 Sep 17, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:48:22 Aug 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.844
+  exclusion.robots: 0.038
+  exclusion.robots.policy: 0.022
+  esindex: 0.012
+  cdx.remote: 19.903
+  LoadShardBlock: 81.666 (3)
+  PetaboxLoader3.datanode: 132.178 (5)
+  load_resource: 588.931 (2)
+  PetaboxLoader3.resolve: 505.524 (2)
+*/
