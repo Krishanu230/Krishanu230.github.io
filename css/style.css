@@ -1,0 +1,116 @@
+:root {
+    --bg-pink: #FF0099;
+    --text-blue: #0000CC;
+    --neon-green-1: #09FF09;
+    --neon-green-2: #06FF06;
+    --neon-green-3: #97FF2F;
+    --pastel-pink: #FB80BD;
+    --light-pink: #FFBDBD;
+    --bright-pink: #FFA4FF;
+    --hot-pink: #F88BDD;
+    --cyan: #80FFFF;
+    --yellow: #FFFF00;
+    --pale-yellow: #F4E768;
+    --bright-yellow: #FFFF53;
+    --dark-yellow: #DED02C;
+    --purple: #9D5BBD;
+    --deep-blue: #432BF0;
+    --dark-blue: #1C17D2;
+    --sky-blue: #5CB6EB;
+    --red: #D7042F;
+    --grey: #D9D9D9;
+}
+
+body {
+    background-color: var(--bg-pink);
+    color: var(--text-blue);
+    font-family: serif; /* Default fallback */
+    margin: 8px;
+}
+
+/* Typography Utilities */
+.font-sans {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.font-serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.font-meta {
+    font-family: "MetaPlusNormal-Roman", sans-serif;
+}
+
+.font-comic {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* Size Utilities (approximating <font size="+x">) */
+.text-xl { font-size: 200%; } /* size="+4" */
+.text-lg { font-size: 150%; } /* size="+2" */
+.text-md { font-size: 120%; } /* size="4" */
+.text-sm { font-size: small; } /* size="2" */
+
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+
+/* Alignment Utilities */
+.text-center {
+    text-align: center;
+}
+
+.block-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Color Utilities */
+.c-neon-green-1 { color: var(--neon-green-1); }
+.c-neon-green-2 { color: var(--neon-green-2); }
+.c-neon-green-3 { color: var(--neon-green-3); }
+.c-pastel-pink { color: var(--pastel-pink); }
+.c-cyan { color: var(--cyan); }
+.c-yellow { color: var(--yellow); }
+.c-purple { color: var(--purple); }
+.c-deep-blue { color: var(--deep-blue); }
+.c-light-pink { color: var(--light-pink); }
+.c-dark-yellow { color: var(--dark-yellow); }
+.c-red { color: var(--red); }
+.c-dark-blue { color: var(--dark-blue); }
+.c-grey { color: var(--grey); }
+.c-pale-yellow { color: var(--pale-yellow); }
+.c-bright-yellow { color: var(--bright-yellow); }
+.c-sky-blue { color: var(--sky-blue); }
+.c-hot-pink { color: var(--hot-pink); }
+.c-bright-pink { color: var(--bright-pink); }
+
+/* Layout & Components */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.double-size {
+    transform: scale(2);
+    transform-origin: top;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* List Styles */
+ul.clean-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit; /* Inherit color from parent font tags usually, or explicit overrides */
+    text-decoration: underline;
+}
