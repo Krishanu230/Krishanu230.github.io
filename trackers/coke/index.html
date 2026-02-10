@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQF1D3X8K5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-PQF1D3X8K5');
+    </script>
+
+    <title>lifetime coke line counter</title>
+    <meta charset="iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="text-center">
+        <h1 class="font-sans c-neon-green-1">Lifetime Coke Line Counter</h1>
+    </div>
+
+    <!-- Graph Section -->
+    <div class="block-center" style="max-width: 800px; padding: 20px; background-color: rgba(0, 0, 0, 0.2); margin-bottom: 30px;">
+        <canvas id="cokeChart"></canvas>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('cokeChart').getContext('2d');
+
+        // DATA INPUT
+        const labels = ['1st Feb 2026'];
+        const rangeData = [[6, 9]]; // [Min, Max]
+
+        // Auto-calculate Average for the Dot
+        const averageData = rangeData.map(range => (range[0] + range[1]) / 2);
+
+        const cokeChart = new Chart(ctx, {
+            data: {
+                labels: labels,
+                datasets: [
+                    // The "Dot" (Auto-calculated Average)
+                    {
+                        type: 'line',
+                        data: averageData,
+                        backgroundColor: '#FFFF00',
+                        borderColor: '#FFFF00',
+                        pointBackgroundColor: '#FFFF00',
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
+                        showLine: false,
+                        order: 1
+                    },
+                    // The "Line" (Range: Min to Max)
+                    {
+                        type: 'bar',
+                        data: rangeData,
+                        backgroundColor: '#09FF09',
+                        borderColor: '#09FF09',
+                        borderWidth: 1,
+                        barThickness: 4,
+                        order: 2
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: '#0000CC',
+                            font: { family: 'Geneva, Arial, Helvetica, sans-serif' }
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                if (context.dataset.type === 'bar') {
+                                    return `Range: ${context.raw[0]} - ${context.raw[1]}`;
+                                }
+                                return `Estimate: ${context.raw}`;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        ticks: { color: '#0000CC' },
+                        grid: { display: false }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        ticks: { color: '#0000CC' },
+                        grid: { color: 'rgba(0, 0, 204, 0.1)' },
+                        title: {
+                            display: true,
+                            text: 'Lines',
+                            color: '#0000CC'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+    <p class="text-center">
+        <span class="text-xl c-neon-green-2 font-sans">...</span>
+    </p>
+    <p class="text-center">
+        <span class="font-meta bold">
+            <span class="c-neon-green-1 font-sans">i think i should start tracking things. i will start with randonly picking number of coke lines to track because mandeep finds it a funny thing to track.</span>
+        </span>
+    </p>
+    <!-- Data Points List -->
+    <div class="text-center">
+        <h2 class="font-sans c-cyan">History</h2>
+        <ul class="clean-list text-center">
+            <li>
+                <!-- Link to specific instance page (to be created later) -->
+                <a href="./2026-02-01/index.html">
+                    <span class="text-md font-sans c-yellow">1st Feb 2026</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <p class="text-center">&nbsp;</p>
+    <p class="text-center">&nbsp;</p>
+    
+    <div class="text-center"> 
+        <a href="../../index.html">
+            <span class="text-md font-sans c-yellow">go home</span>
+        </a> 
+    </div>
+
+    <p class="text-center">
+        <span id="post-timestamp" class="c-neon-green-2 font-sans">created on 9th february 2026, last modified on 10th february 2026</span>
+    </p>
+
+    <p>&nbsp;</p>
+
+    <div class="text-center">
+        <img src="../../media/badges/English/Written By Human/SVG/Written-By-Human-Not-By-AI-Badge-white.svg">
+    </div>
+</body>
+
+</html>
